@@ -1,0 +1,21 @@
+doctype html
+link(rel="stylesheet", href="./stylesheets/test.css")
+script(src="/javascripts/test.js")
+div#root
+  h1=title
+  form#myForm(method="post" action="loginHander")
+   table.table01(align="center" border="0" cellpadding="2" cellspacing="0")
+     tr
+      td
+        p login 
+     tr 
+      td 
+        p userName
+        input(type="text" name="userName")
+     tr 
+      td 
+       p password
+       input(type="text" name="password")
+     tr 
+      td
+       input(type="submit" value="submit")
